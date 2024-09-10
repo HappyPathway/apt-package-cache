@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: build
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: ubuntu:${{ vars.ubuntu_version }}
       volumes:
